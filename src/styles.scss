@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  background-image: url('./assets/images/background.jpg');
+  background-size: cover;
+  // background-repeat: no-repeat;
+  background-position: center;
+}
+
+header {
+  grid-row: 1;
+}
+
+main {
+  grid-row: 2;
+}
+
+footer {
+  grid-row: 3;
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+}
