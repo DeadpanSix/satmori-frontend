@@ -1,7 +1,6 @@
-.header {
-  background-image: linear-gradient(to right, #6a11cb, #2575fc);
-}
-
-.events {
-  color: #b93d3d;
+.info-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 5em;
+  align-items: center;
 }
