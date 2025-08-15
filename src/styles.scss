@@ -18,7 +18,29 @@ main {
 
 footer {
   grid-row: 3;
-  background-color: #333;
-  color: #fff;
-  padding: 1rem;
+  height: 8em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #ffffff;
+  background-image: url('./assets/images/back_3.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.footer-logo {
+  background-image: url('./assets/images/logo_icon_satmori.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 120px;
+  height: 120px;
+}
+
+.social-links {
+  margin: 2em;
+  display: flex;
+}
+
+.social-links a {
+  margin: 1.5em;
 }
